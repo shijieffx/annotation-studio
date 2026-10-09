@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 13px;
+  color: #2b3a47;
+  background: #f7f9fb;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font-family: inherit; }
+input, textarea { font-family: inherit; }
+
+/* 画布区域禁掉浏览器默认的拖拽与选中行为，避免标注时误选文字 */
+canvas { display: block; }
+.stage-host { user-select: none; -webkit-user-select: none; }

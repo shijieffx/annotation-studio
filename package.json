@@ -1,0 +1,24 @@
+{
+  "name": "annotation-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "图像标注工作台 · 个人作品 Demo（Konva.js + Vue3 + TypeScript）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "konva": "^9.3.16",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}
