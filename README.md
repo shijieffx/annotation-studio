@@ -7,6 +7,9 @@
 技术栈：**Konva.js**（Canvas 图层渲染）· Vue 3 · TypeScript · Vite
 
 > **仓库地址**：https://github.com/shijieffx/annotation-studio
+>
+> **在线体验**：https://park-ops-platform.app.workbuddy.host/annotation/
+> （与另一个作品共用域名，挂在其 `/annotation/` 子路径下）
 
 ---
 
@@ -19,6 +22,10 @@
 ```bash
 npm install && npm run dev     # http://localhost:5180
 ```
+
+> 部署说明：本项目为纯静态产物，线上是与「园区综合运维管理平台」共用同一个域名与端口。
+> 构建后把 `dist/` 的内容同步到该项目的 `public/annotation/`（它会在构建时被复制进 `dist/`），
+> 即可通过 `/annotation/` 访问。本项目用 `base: './'` 构建，资源为相对路径，挂在任意子路径下都能正常工作。
 
 ---
 
