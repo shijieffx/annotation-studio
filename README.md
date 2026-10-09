@@ -6,6 +6,8 @@
 
 技术栈：**Konva.js**（Canvas 图层渲染）· Vue 3 · TypeScript · Vite
 
+> **仓库地址**：https://github.com/shijieffx/annotation-studio
+
 ---
 
 ## 快速体验
